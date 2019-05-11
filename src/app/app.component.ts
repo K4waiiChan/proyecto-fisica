@@ -19,6 +19,11 @@ export class AppComponent {
       title: 'Regresion Exponencial',
       url: '/exponencial-regression',
       icon: 'calculator'
+    },
+    {
+      title: 'Regresion Potencial',
+      url: '/potencial-regression',
+      icon: 'calculator'
     }
   ];
 

@@ -8,9 +8,14 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   { path: 'lineal-regression',
-    loadChildren: './pages/lineal-regression/lineal-regression.module#LinealRegressionPageModule' },
-  { path: 'exponencial-regression', 
-    loadChildren: './pages/exponencial-regression/exponencial-regression.module#ExponencialRegressionPageModule' },
+    loadChildren: './pages/lineal-regression/lineal-regression.module#LinealRegressionPageModule'
+  },
+  { path: 'exponencial-regression',
+    loadChildren: './pages/exponencial-regression/exponencial-regression.module#ExponencialRegressionPageModule'
+  },
+  { path: 'potencial-regression',
+    loadChildren: './pages/potencial-regression/potencial-regression.module#PotencialRegressionPageModule'
+  },
 ];
 
 @NgModule({
