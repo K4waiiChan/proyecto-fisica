@@ -4,17 +4,13 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'home',
+    redirectTo: 'lineal-regression',
     pathMatch: 'full'
   },
-  {
-    path: 'home',
-    loadChildren: './home/home.module#HomePageModule'
-  },
-  {
-    path: 'list',
-    loadChildren: './list/list.module#ListPageModule'
-  },
+  { path: 'lineal-regression',
+    loadChildren: './pages/lineal-regression/lineal-regression.module#LinealRegressionPageModule' },
+  { path: 'exponencial-regression', 
+    loadChildren: './pages/exponencial-regression/exponencial-regression.module#ExponencialRegressionPageModule' },
 ];
 
 @NgModule({
