@@ -16,6 +16,7 @@ const routes: Routes = [
   { path: 'potencial-regression',
     loadChildren: './pages/potencial-regression/potencial-regression.module#PotencialRegressionPageModule'
   },
+  { path: 'credits', loadChildren: './pages/credits/credits.module#CreditsPageModule' },
 ];
 
 @NgModule({

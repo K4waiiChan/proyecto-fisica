@@ -24,6 +24,11 @@ export class AppComponent {
       title: 'Regresion Potencial',
       url: '/potencial-regression',
       icon: 'calculator'
+    },
+    {
+      title: 'Informacion',
+      url: '/credits',
+      icon: 'information-circle'
     }
   ];
 
