@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Interval, LinealRegressionResults } from 'src/app/home/models';
+import { Interval, LinealRegressionResults } from 'src/app/models/models';
 
 @Component({
   selector: 'app-lineal-regression',

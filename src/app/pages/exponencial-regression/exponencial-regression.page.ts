@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Interval, ExponencialRegressionResults } from 'src/app/home/models';
+import { Interval, ExponencialRegressionResults } from 'src/app/models/models';
 
 @Component({
   selector: 'app-exponencial-regression',
